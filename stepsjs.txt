@@ -1,0 +1,57 @@
+Project 2
+steps 1:
+1.Dom
+2.querySelector just return first element
+3.querySelectorAll  get all class 
+4.getElementById
+5 addEventListener
+6 click is a event
+7 e()->{}
+8 target
+9 classList (to show all classes)
+10 contains('') check the class in list available or not
+11 add (add a classlist)
+12 toggle ( fist click add in classlist and second click remove in classlist)
+13.length
+14.innerText
+15 change event kis be chz ko select krna ho or us update krna  ka change event use krta ha
+16 spread operator (...) to copy previous work or jitna be values ha selectedSeats ma us ko return kr ga .
+17 map(function(parameter){return value} map function kis be array pa loop lagna ka leya use hota ha our is ka sath new array be generate krta ha
+18 indexOf() find the idex of the seat
+19 localStorage.setItem('key',value') ...ya browser ka storage hta our ya key our value pa mustmil hta ha our key hmry pass description hta ha our value data hta ha...example 'selectedseat',JSON.stringify(seatsindex))
+JSON.stringify us waqat use krta ha jyab hmry pass list of array us ko string ma convert krta ha
+20 JSON.parse to converty strng to array.
+21 getitems..get the value from localstorage. 
+
+Step 2:
+1.Make constant to target a conatainer
+2.target the seats 
+3.target the seats on under the row and not 	occupied (Pseudo Class);
+4.get the count id
+5.get the total id
+6 get movieselect id
+7 get a value of movieselect...ticketPrice
+8 console ticketprice
+9 convert string to number using + operator before the movieselect.value
+10 to apply event on container
+11 make a arrow function tha latest of es6 js
+12 console e.target....show value of element
+13. apply if conditon on e.target.classList.contains('seat')
+14 console 
+15 apply condition use ! operator ..not select the occupied classes
+16 apply toggle('select' ) 
+17 make updateSelectedCount()
+18 call the updatselctedcount funtion
+19 underfuntion qurey to row seat selected
+20 calculate length 
+21  update count variable
+22 update total value price * seat
+23 Make evenlistern ...even listner for movie select
+24 update the ticketprice
+25 call updateseelcount function
+26 To copy the selectedSeat in seatindex
+27 make a function setMOvies(setindex,selectedseat)
+28 make a populateUI fucntion to get a value from localstorage
+
+29 check teh seat not null and lenght greater than 0
+
